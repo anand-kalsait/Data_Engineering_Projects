@@ -2,6 +2,16 @@
 Various small projects on Data Engineering............
 
 APACHE Airflow Instructions:
+First, make sure you have installed Docker Desktop and Visual Studio. If not, lets do it now!
+
+Get Docker: https://docs.docker.com/desktop/insta...
+
+Get Visual Studio Code
+
+Download the following file: https://airflow.apache.org/docs/apach...
+
+Save the yaml file into a folder and change the extention to yaml if required to do so.
+
 Open Visual Studio Code
 
 Open the folder with the docker-compose file
@@ -21,3 +31,5 @@ Eg. docker-compose run airflow-worker airflow users create --role Admin --userna
 
 Then you can use the Airflow dashboard with the command "airflow" in the terminal and goto localhost:8080 for the admin panel in your browser.
 
+Refer to the follwing YT tutorial:
+https://youtu.be/Fl64Y0p7rls?feature=shared
