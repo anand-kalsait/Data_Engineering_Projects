@@ -26,8 +26,6 @@ sudo apt update && sudo apt upgrade -all
 <br>deactivate - To deactivate the venv
 <br>sudo poweroff - To shutdown the Ubuntu Distro
 
-
-
 <h2>To Migrate Default SQLite Database to MySQL Database</h2>
 
 <h3>Instructions:</h3>
