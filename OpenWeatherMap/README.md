@@ -45,24 +45,24 @@ Refer to the link below:
 9) Creating an Airflow User:
 <pre class="tab">airflow users create --username Username --password Password --role Admin --firstname FirsName --lastname LastName --email Email</pre>
 Example:<br>airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
-<br>--------------------------------------------------------------------------------------
+<br>--------------------------------------------------------------------------------------<br>
 <h3>Commands to run already created Airflow Server :</h3>
 <h4>- To run the server all at once, but might create errors if pre-existing server is still up</h4>
 <pre class="tab">airflow standalone</pre>
-<br>--------------------------------------------------------------------------------------
+<br>--------------------------------------------------------------------------------------<br>
 <h4>- To run the server from scratch, better to run this way as the server is already create before</h4> 
 <pre class="tab">airflow db inti</pre>
-<br>--------------------------------------------------------------------------------------
+<br>--------------------------------------------------------------------------------------<br>
 - Use diffterent tabs for scheduler and webserver if you are using VS Code with WSL Remote Access: 
 <pre class="tab">airflow scheduler</pre>
 <pre class="tab">airflow webserver -p 8080</pre>
-<br>--------------------------------------------------------------------------------------
+<br>--------------------------------------------------------------------------------------<br>
 - To stop the server:
 <pre class="tab">Crtl+C</pre>
-<br>--------------------------------------------------------------------------------------
+<br>--------------------------------------------------------------------------------------<br>
 - To force stop the server use kill command with the port number given by 'lsof' command below:
 <pre class="tab">lsof -i tcp:8080</pre>
 <pre class="tab">kill port_number </pre>
-<br>--------------------------------------------------------------------------------------
+<br>--------------------------------------------------------------------------------------<br>
 
 
