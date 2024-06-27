@@ -26,7 +26,7 @@ Thank You @Data Rollup from Youtube for the amazing tips.
 <h2>To Migrate Default SQLite Database to MySQL Database:</h2>
 Refer to the link below:
 <br>Link - https://youtu.be/v8gbHZbttGs?feature=shared
-<br>Instructions:
+<h3>>Instructions:</h3>
 <br>1) Update Package Manager: 
 <br> <pre class="tab">   sudo apt update </pre>
 <br>2) Install MySQL on Ubuntu: 
@@ -50,8 +50,13 @@ Refer to the link below:
 <br>    airflow users create --username <Username> --password <Password> --role Admin --firstname <FirsName> --lastname <LastName> --email <Email>
 <br>    Eg. airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
 
-# Airflow Commands:
+<h3>Commands to run already created Airflow Server :</h3>
+<h4>- To run the server all at once, but might create errors if pre-existing server is still up</h4>
+<br>airflow standalone
+<br>----------------------------OR----------------------------
+<h4>- To run the server from scratch, better to run this way as the server is already create before</h4> 
 <br>airflow db inti
+<br> - Use diffterent tabs for scheduler and webserver if you are using VS Code with WSL Remote Access 
 <br>airflow scheduler
 <br>airflow webserver -p 8080
 
