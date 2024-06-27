@@ -7,9 +7,9 @@
 # Airflow Projects
 Youtube Playlist for referance:
 <br>Link - https://youtube.com/playlist?list=PLh_t6gayq9phGUKuyLlP5NU7HISwt-yfN&feature=shared
-Thank You @Data Rollup from Youtube for the amazing tips.
+<br>Thank You @Data Rollup from Youtube for the amazing tips.
 
-<h2>Steps to Install Airflow on Windows using WSL</h2>
+<h2>Steps to Install Airflow using WSL-2</h2>
 
 <br>sudo apt update && sudo apt upgrade -all
 <br>sudo apt full-upgrade
@@ -48,16 +48,16 @@ Refer to the link below:
 <pre class="tab">airflow db migrate</pre>
 9) Creating an Airflow User:
 <pre class="tab">airflow users create --username <Username> --password <Password> --role Admin --firstname <FirsName> --lastname <LastName> --email <Email></Email></pre>
-Example: airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
+Example:<br>airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
 
 <h3>Commands to run already created Airflow Server :</h3>
 <h4>- To run the server all at once, but might create errors if pre-existing server is still up</h4>
-<br>airflow standalone
+<pre class="tab">airflow standalone</pre>
 <h4>- To run the server from scratch, better to run this way as the server is already create before</h4> 
-<br>airflow db inti
-<br> - Use diffterent tabs for scheduler and webserver if you are using VS Code with WSL Remote Access 
-<br>airflow scheduler
-<br>airflow webserver -p 8080
+<pre class="tab">airflow db inti</pre>
+- Use diffterent tabs for scheduler and webserver if you are using VS Code with WSL Remote Access 
+<pre class="tab">airflow scheduler</pre>
+<pre class="tab">airflow webserver -p 8080</pre>
 
 
 <br>lsof -i tcp:8080
