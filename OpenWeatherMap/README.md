@@ -58,7 +58,7 @@ Example:<br>airflow users create --username admin --password admin --role Admin 
 <pre class="tab">Crtl+C</pre>
 - To force stop the server use kill command with the port number given by 'lsof' command below:
 <pre class="tab">lsof -i tcp:8080</pre>
-<pre class="tab">kill <port_number> </pre>
+<pre class="tab">kill port_number </pre>
 --------------------------------------------------------------------------
 
 
