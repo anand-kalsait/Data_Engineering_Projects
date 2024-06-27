@@ -22,27 +22,27 @@ Refer to the link below:
 <br>Link - https://youtu.be/v8gbHZbttGs?feature=shared
 <br>Instructions:
 <br>1) Update Package Manager: 
-<br>sudo apt update
+<br>    sudo apt update
 <br>2) Install MySQL on Ubuntu: 
-<br>sudo apt install mysql-server
+<br>    sudo apt install mysql-server
 <br>3) Creating Database for Airflow:
-<br>CREATE DATABASE airflow_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-<br>CREATE USER 'airflow_user' IDENTIFIED BY 'airflow_pass';
-<br>GRANT ALL PRIVILEGES ON airflow_db.* TO 'airflow_user';
+<br>    CREATE DATABASE airflow_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+<br>    CREATE USER 'airflow_user' IDENTIFIED BY 'airflow_pass';
+<br>    GRANT ALL PRIVILEGES ON airflow_db.* TO 'airflow_user';
 <br>4) Define Connection in airflow.cfg:
-<br>sql_alchemy_conn = mysql+mysqldb://airflow_user:airflow_pass@127.0.0.1:3306/airflow_db
+<br>    sql_alchemy_conn = mysql+mysqldb://airflow_user:airflow_pass@127.0.0.1:3306/airflow_db
 <br>5) Installing MYSQL client on Ubuntu:
-<br>sudo apt install libmysqlclient-dev
+<br>    sudo apt install libmysqlclient-dev
 <br>6) Exporting Environment Variables:
-<br>export MYSQLCLIENT_CFLAGS="$(mysql_config --cflags)"
-<br>export MYSQLCLIENT_LDFLAGS="$(mysql_config --libs)"
+<br>    export MYSQLCLIENT_CFLAGS="$(mysql_config --cflags)"
+<br>    export MYSQLCLIENT_LDFLAGS="$(mysql_config --libs)"
 <br>7) Pip install MYSQL Client:
-<br>pip install mysqlclient
+<br>    pip install mysqlclient
 <br>8) Migrate Airflow:
-<br>airflow db migrate
+<br>    airflow db migrate
 <br>9) Creating an Airflow User:
-<br>airflow users create --username <Username> --password <Password> --role Admin --firstname <FirsName> --lastname <LastName> --email <Email>
-<br>Eg. airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
+<br>    airflow users create --username <Username> --password <Password> --role Admin --firstname <FirsName> --lastname <LastName> --email <Email>
+<br>    Eg. airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
 
 # Airflow Commands:
 <br>airflow db inti
