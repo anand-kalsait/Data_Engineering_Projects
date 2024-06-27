@@ -28,22 +28,22 @@ Refer to the link below:
 <br>Link - https://youtu.be/v8gbHZbttGs?feature=shared
 <h3>>Instructions:</h3>
 <br>1) Update Package Manager: 
-<br> <pre class="tab">   sudo apt update </pre>
-<br>2) Install MySQL on Ubuntu: 
-<br>    sudo apt install mysql-server
+<pre class="tab">sudo apt update </pre>
+2) Install MySQL on Ubuntu: 
+<br><pre class="tab">sudo apt install mysql-server</pre>
 <br>3) Creating Database for Airflow:
-<br>    CREATE DATABASE airflow_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-<br>    CREATE USER 'airflow_user' IDENTIFIED BY 'airflow_pass';
-<br>    GRANT ALL PRIVILEGES ON airflow_db.* TO 'airflow_user';
+<br><pre class="tab"></pre>CREATE DATABASE airflow_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+<br><pre class="tab"></pre>CREATE USER 'airflow_user' IDENTIFIED BY 'airflow_pass';
+<br><pre class="tab"></pre>GRANT ALL PRIVILEGES ON airflow_db.* TO 'airflow_user';
 <br>4) Define Connection in airflow.cfg:
-<br>    sql_alchemy_conn = mysql+mysqldb://airflow_user:airflow_pass@127.0.0.1:3306/airflow_db
+<br><pre class="tab"></pre>sql_alchemy_conn = mysql+mysqldb://airflow_user:airflow_pass@127.0.0.1:3306/airflow_db
 <br>5) Installing MYSQL client on Ubuntu:
-<br>    sudo apt install libmysqlclient-dev
+<br><pre class="tab"></pre>sudo apt install libmysqlclient-dev
 <br>6) Exporting Environment Variables:
-<br>    export MYSQLCLIENT_CFLAGS="$(mysql_config --cflags)"
-<br>    export MYSQLCLIENT_LDFLAGS="$(mysql_config --libs)"
+<br><pre class="tab"></pre>export MYSQLCLIENT_CFLAGS="$(mysql_config --cflags)"
+<br><pre class="tab"></pre>export MYSQLCLIENT_LDFLAGS="$(mysql_config --libs)"
 <br>7) Pip install MYSQL Client:
-<br>    pip install mysqlclient
+<br><pre class="tab"></pre>pip install mysqlclient
 <br>8) Migrate Airflow:
 <br>    airflow db migrate
 <br>9) Creating an Airflow User:
@@ -53,7 +53,6 @@ Refer to the link below:
 <h3>Commands to run already created Airflow Server :</h3>
 <h4>- To run the server all at once, but might create errors if pre-existing server is still up</h4>
 <br>airflow standalone
-<br>----------------------------OR----------------------------
 <h4>- To run the server from scratch, better to run this way as the server is already create before</h4> 
 <br>airflow db inti
 <br> - Use diffterent tabs for scheduler and webserver if you are using VS Code with WSL Remote Access 
