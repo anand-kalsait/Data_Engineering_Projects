@@ -1,9 +1,3 @@
- <style>
-    .tab {
-      tab-size: 4;
-    }
-  </style>
-
 # Airflow Projects
 Youtube Playlist for referance:
 <br>Link - https://youtube.com/playlist?list=PLh_t6gayq9phGUKuyLlP5NU7HISwt-yfN&feature=shared
