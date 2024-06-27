@@ -14,17 +14,28 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 Youtube Link - https://youtube.com/shorts/UfPnQIBo5_I?feature=shared
 
 <h4>Use the following Commands to get started after WSL and Ubuntu Installation</h4>
-sudo apt update && sudo apt upgrade -all
-<br>sudo apt full-upgrade
-<br>sudo apt install python3
-<br>sudo apt install python3-pip
-<br>sudo apt install -y python3 python3-pip python3-venv
-<br>python3 -m venv airflow-venv
-<br>source airflow-venv/bin/activate
-<br>pip install apache-airflow
-<br>pip install package_names like s3fs,pandas,numpy,datetime,json,airflow,airflow.providers,csv
-<br>deactivate - To deactivate the venv
-<br>sudo poweroff - To shutdown the Ubuntu Distro
+- To Update the System Files
+<pre class="tab">sudo apt update && sudo apt upgrade -all</pre>
+<br>- To full upgrade
+<pre class="tab">sudo apt full-upgrade</pre>
+- To install Python
+<pre class="tab">sudo apt install python3w</pre>
+- To install Pip
+<pre class="tab">sudo apt install python3-pip</pre>
+- To install Pip and Venv together
+<pre class="tab">sudo apt install -y python3 python3-pip python3-venv</pre>
+- Creating a Venv named airflow-venv
+<pre class="tab">python3 -m venv airflow-venv</pre>
+- To activate the Venv
+<pre class="tab">source airflow-venv/bin/activate</pre>
+- To install Airflow from Apache
+<pre class="tab">pip install apache-airflow</pre>
+- To insatll various Python Packages one by one (not all at once ^_^)
+<pre class="tab">pip install "package_names" like - s3fs,pandas,numpy,datetime,json,airflow,airflow.providers,csv</pre>
+- To deactivate the venv
+<pre class="tab">deactivate</pre> 
+- To shutdown the Ubuntu Distro
+<pre class="tab">sudo poweroff </pre>
 
 <h2>To Migrate Default SQLite Database to MySQL Database</h2>
 
