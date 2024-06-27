@@ -1,6 +1,8 @@
 <h1>Airflow Project with OpenWeatherMap API</h1> 
 <br>Youtube Playlist for referance:
-<br>Link - https://youtube.com/playlist?list=PLh_t6gayq9phGUKuyLlP5NU7HISwt-yfN&feature=shared
+<br>Link for OpenWeatherMap API Project - https://youtu.be/uhQ54Dgp6To?feature=shared
+<br>Thank You @tuplespectra from Youtube for the amazing tips.
+<br>Link for Airflow Installation Playlist- https://youtube.com/playlist?list=PLh_t6gayq9phGUKuyLlP5NU7HISwt-yfN&feature=shared
 <br>Thank You @Data Rollup from Youtube for the amazing tips.
 
 <h2>Steps to Install Airflow using WSL-2</h2>
@@ -41,7 +43,7 @@ Refer to the link below:
 8) Migrate Airflow:
 <pre class="tab">airflow db migrate</pre>
 9) Creating an Airflow User:
-<pre class="tab">airflow users create --username <Username> --password <Password> --role Admin --firstname <FirsName> --lastname <LastName> --email <Email></Email></pre>
+<pre class="tab">airflow users create --username Username --password Password --role Admin --firstname FirsName --lastname LastName --email Email</pre>
 Example:<br>airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
 
 <h3>Commands to run already created Airflow Server :</h3>
@@ -49,13 +51,14 @@ Example:<br>airflow users create --username admin --password admin --role Admin 
 <pre class="tab">airflow standalone</pre>
 <h4>- To run the server from scratch, better to run this way as the server is already create before</h4> 
 <pre class="tab">airflow db inti</pre>
-- Use diffterent tabs for scheduler and webserver if you are using VS Code with WSL Remote Access 
+- Use diffterent tabs for scheduler and webserver if you are using VS Code with WSL Remote Access: 
 <pre class="tab">airflow scheduler</pre>
 <pre class="tab">airflow webserver -p 8080</pre>
-
-
-<br>lsof -i tcp:8080
-<br>kill <port_number>
+- To stop the server:
+<pre class="tab">Crtl+C</pre>
+- To force stop the server use kill command with the port number given by 'lsof' command below:
+<pre class="tab">lsof -i tcp:8080</pre>
+<pre class="tab">kill <port_number> </pre>
 --------------------------------------------------------------------------
 
 
