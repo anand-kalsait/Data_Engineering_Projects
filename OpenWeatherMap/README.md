@@ -27,26 +27,26 @@ Thank You @Data Rollup from Youtube for the amazing tips.
 Refer to the link below:
 <br>Link - https://youtu.be/v8gbHZbttGs?feature=shared
 <br>Instructions:
-1) Update Package Manager: 
-<br> <pre class="tab1">   sudo apt update </pre>
-2) Install MySQL on Ubuntu: 
+<br>1) Update Package Manager: 
+<br> <pre class="tab">   sudo apt update </pre>
+<br>2) Install MySQL on Ubuntu: 
 <br>    sudo apt install mysql-server
-3) Creating Database for Airflow:
+<br>3) Creating Database for Airflow:
 <br>    CREATE DATABASE airflow_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 <br>    CREATE USER 'airflow_user' IDENTIFIED BY 'airflow_pass';
 <br>    GRANT ALL PRIVILEGES ON airflow_db.* TO 'airflow_user';
-4) Define Connection in airflow.cfg:
+<br>4) Define Connection in airflow.cfg:
 <br>    sql_alchemy_conn = mysql+mysqldb://airflow_user:airflow_pass@127.0.0.1:3306/airflow_db
-5) Installing MYSQL client on Ubuntu:
+<br>5) Installing MYSQL client on Ubuntu:
 <br>    sudo apt install libmysqlclient-dev
-6) Exporting Environment Variables:
+<br>6) Exporting Environment Variables:
 <br>    export MYSQLCLIENT_CFLAGS="$(mysql_config --cflags)"
 <br>    export MYSQLCLIENT_LDFLAGS="$(mysql_config --libs)"
-7) Pip install MYSQL Client:
+<br>7) Pip install MYSQL Client:
 <br>    pip install mysqlclient
-8) Migrate Airflow:
+<br>8) Migrate Airflow:
 <br>    airflow db migrate
-9) Creating an Airflow User:
+<br>9) Creating an Airflow User:
 <br>    airflow users create --username <Username> --password <Password> --role Admin --firstname <FirsName> --lastname <LastName> --email <Email>
 <br>    Eg. airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
 
