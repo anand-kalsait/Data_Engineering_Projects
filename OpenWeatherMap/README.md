@@ -26,29 +26,29 @@ Thank You @Data Rollup from Youtube for the amazing tips.
 <h2>To Migrate Default SQLite Database to MySQL Database:</h2>
 Refer to the link below:
 <br>Link - https://youtu.be/v8gbHZbttGs?feature=shared
-<h3>>Instructions:</h3>
+<h3>Instructions:</h3>
 <br>1) Update Package Manager: 
 <pre class="tab">sudo apt update </pre>
 2) Install MySQL on Ubuntu: 
-<br><pre class="tab">sudo apt install mysql-server</pre>
-<br>3) Creating Database for Airflow:
-<br><pre class="tab"></pre>CREATE DATABASE airflow_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-<br><pre class="tab"></pre>CREATE USER 'airflow_user' IDENTIFIED BY 'airflow_pass';
-<br><pre class="tab"></pre>GRANT ALL PRIVILEGES ON airflow_db.* TO 'airflow_user';
-<br>4) Define Connection in airflow.cfg:
-<br><pre class="tab"></pre>sql_alchemy_conn = mysql+mysqldb://airflow_user:airflow_pass@127.0.0.1:3306/airflow_db
-<br>5) Installing MYSQL client on Ubuntu:
-<br><pre class="tab"></pre>sudo apt install libmysqlclient-dev
-<br>6) Exporting Environment Variables:
-<br><pre class="tab"></pre>export MYSQLCLIENT_CFLAGS="$(mysql_config --cflags)"
-<br><pre class="tab"></pre>export MYSQLCLIENT_LDFLAGS="$(mysql_config --libs)"
-<br>7) Pip install MYSQL Client:
-<br><pre class="tab"></pre>pip install mysqlclient
-<br>8) Migrate Airflow:
-<br>    airflow db migrate
-<br>9) Creating an Airflow User:
-<br>    airflow users create --username <Username> --password <Password> --role Admin --firstname <FirsName> --lastname <LastName> --email <Email>
-<br>    Eg. airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
+<pre class="tab">sudo apt install mysql-server</pre>
+3) Creating Database for Airflow:
+<pre class="tab">CREATE DATABASE airflow_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;</pre>
+<pre class="tab">CREATE USER 'airflow_user' IDENTIFIED BY 'airflow_pass';</pre>
+<pre class="tab">GRANT ALL PRIVILEGES ON airflow_db.* TO 'airflow_user';</pre>
+4) Define Connection in airflow.cfg:
+<pre class="tab">sql_alchemy_conn = mysql+mysqldb://airflow_user:airflow_pass@127.0.0.1:3306/airflow_db</pre>
+5) Installing MYSQL client on Ubuntu:
+<pre class="tab">sudo apt install libmysqlclient-dev</pre>
+6) Exporting Environment Variables:
+<pre class="tab">export MYSQLCLIENT_CFLAGS="$(mysql_config --cflags)"</pre>
+<pre class="tab">export MYSQLCLIENT_LDFLAGS="$(mysql_config --libs)"</pre>
+7) Pip install MYSQL Client:
+<pre class="tab">pip install mysqlclient</pre>
+8) Migrate Airflow:
+<pre class="tab">airflow db migrate</pre>
+9) Creating an Airflow User:
+<pre class="tab">airflow users create --username <Username> --password <Password> --role Admin --firstname <FirsName> --lastname <LastName> --email <Email></Email></pre>
+Example: airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
 
 <h3>Commands to run already created Airflow Server :</h3>
 <h4>- To run the server all at once, but might create errors if pre-existing server is still up</h4>
