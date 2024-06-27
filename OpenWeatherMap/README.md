@@ -16,7 +16,7 @@ Youtube Link - https://youtube.com/shorts/UfPnQIBo5_I?feature=shared
 <h4>Use the following Commands to get started after WSL and Ubuntu Installation</h4>
 - To Update the System Files
 <pre class="tab">sudo apt update && sudo apt upgrade -all</pre>
-<br>- To full upgrade
+- To full upgrade
 <pre class="tab">sudo apt full-upgrade</pre>
 - To install Python
 <pre class="tab">sudo apt install python3w</pre>
@@ -30,8 +30,8 @@ Youtube Link - https://youtube.com/shorts/UfPnQIBo5_I?feature=shared
 <pre class="tab">source airflow-venv/bin/activate</pre>
 - To install Airflow from Apache
 <pre class="tab">pip install apache-airflow</pre>
-- To insatll various Python Packages one by one (not all at once ^_^)
-<pre class="tab">pip install "package_names" like - s3fs,pandas,numpy,datetime,json,airflow,airflow.providers,csv</pre>
+- To install various Python Packages one by one (not all at once ^_^)
+<pre class="tab">pip install "package_name" like - s3fs,pandas,numpy,datetime,json,airflow,airflow.providers,csv</pre>
 - To deactivate the venv
 <pre class="tab">deactivate</pre> 
 - To shutdown the Ubuntu Distro
