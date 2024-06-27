@@ -19,7 +19,7 @@
 <br>deactivate
 <br>sudo poweroff 
 
-<h2>To Migrate Default SQLite Database to MySQL Database:</h2>
+<h2>To Migrate Default SQLite Database to MySQL Database</h2>
 Refer to the link below:
 <br>Link - https://youtu.be/v8gbHZbttGs?feature=shared
 <h3>Instructions:</h3>
@@ -46,17 +46,17 @@ Refer to the link below:
 <pre class="tab">airflow users create --username Username --password Password --role Admin --firstname FirsName --lastname LastName --email Email</pre>
 Example:<br>airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com
 
-<h3>Commands to run already created Airflow Server :</h3>
+<h2>Commands to run already created Airflow Server</h2>
 <h4>- To run the server all at once, but might create errors if pre-existing server is still up</h4>
 <pre class="tab">airflow standalone</pre>
 <h4>- To run the server from scratch, better to run this way as the server is already create before</h4> 
 <pre class="tab">airflow db inti</pre>
-- Use diffterent tabs for scheduler and webserver if you are using VS Code with WSL Remote Access: 
+<h4>- Use diffterent tabs for scheduler and webserver if you are using VS Code with WSL Remote Access</h4> 
 <pre class="tab">airflow scheduler</pre>
 <pre class="tab">airflow webserver -p 8080</pre>
-- To stop the server:
+<h4>- To stop the server</h4>
 <pre class="tab">Crtl+C</pre>
-- To force stop the server use kill command with the port number given by 'lsof' command below:
+<h4>- To force stop the server use kill command with the port number given by 'lsof' command below</h4>
 <pre class="tab">lsof -i tcp:8080</pre>
 <pre class="tab">kill port_number </pre>
 ---------------------------------------------------------------------------------------------------
