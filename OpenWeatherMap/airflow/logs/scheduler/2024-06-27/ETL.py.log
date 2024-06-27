@@ -1,0 +1,252 @@
+[2024-06-27T10:53:33.411+0530] {processor.py:161} INFO - Started process (PID=1773) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:53:33.414+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T10:53:33.421+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:53:33.419+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:53:33.454+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:53:33.526+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:53:33.525+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T10:53:33.670+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:53:33.669+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T10:53:33.726+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.337 seconds
+[2024-06-27T10:54:04.018+0530] {processor.py:161} INFO - Started process (PID=2582) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:54:04.022+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T10:54:04.034+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:54:04.033+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:54:04.106+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:54:04.700+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:54:04.699+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T10:54:04.789+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:54:04.788+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T10:54:04.975+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.999 seconds
+[2024-06-27T10:54:35.417+0530] {processor.py:161} INFO - Started process (PID=2972) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:54:35.419+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T10:54:35.423+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:54:35.422+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:54:35.444+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:54:35.515+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:54:35.515+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T10:54:35.573+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:54:35.570+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T10:54:35.631+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.240 seconds
+[2024-06-27T10:55:05.767+0530] {processor.py:161} INFO - Started process (PID=3398) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:55:05.770+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T10:55:05.776+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:55:05.775+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:55:05.799+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:55:05.862+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:55:05.862+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T10:55:05.920+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:55:05.920+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T10:55:05.991+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.246 seconds
+[2024-06-27T10:55:36.210+0530] {processor.py:161} INFO - Started process (PID=3878) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:55:36.211+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T10:55:36.214+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:55:36.213+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:55:36.230+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:55:36.273+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:55:36.273+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T10:55:36.305+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:55:36.305+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T10:55:36.349+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.177 seconds
+[2024-06-27T10:56:06.549+0530] {processor.py:161} INFO - Started process (PID=4159) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:56:06.553+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T10:56:06.559+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:56:06.558+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:56:06.580+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:56:06.648+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:56:06.647+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T10:56:06.688+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:56:06.687+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T10:56:06.728+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.201 seconds
+[2024-06-27T10:56:36.970+0530] {processor.py:161} INFO - Started process (PID=4437) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:56:36.972+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T10:56:36.977+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:56:36.977+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:56:36.997+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:56:37.062+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:56:37.062+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T10:56:37.115+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:56:37.114+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T10:56:37.169+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.216 seconds
+[2024-06-27T10:57:08.140+0530] {processor.py:161} INFO - Started process (PID=4712) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:57:08.142+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T10:57:08.145+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:57:08.144+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:57:08.153+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T10:57:08.187+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:57:08.187+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T10:57:08.210+0530] {logging_mixin.py:188} INFO - [2024-06-27T10:57:08.210+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T10:57:08.243+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.112 seconds
+[2024-06-27T12:06:20.121+0530] {processor.py:161} INFO - Started process (PID=2423) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T12:06:20.123+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T12:06:20.125+0530] {logging_mixin.py:188} INFO - [2024-06-27T12:06:20.125+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T12:06:20.141+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T12:06:20.174+0530] {logging_mixin.py:188} INFO - [2024-06-27T12:06:20.174+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T12:06:20.226+0530] {logging_mixin.py:188} INFO - [2024-06-27T12:06:20.225+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T12:06:20.280+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.169 seconds
+[2024-06-27T12:06:50.480+0530] {processor.py:161} INFO - Started process (PID=3033) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T12:06:50.481+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T12:06:50.486+0530] {logging_mixin.py:188} INFO - [2024-06-27T12:06:50.486+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T12:06:50.505+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T12:06:50.717+0530] {logging_mixin.py:188} INFO - [2024-06-27T12:06:50.717+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T12:06:50.745+0530] {logging_mixin.py:188} INFO - [2024-06-27T12:06:50.745+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T12:06:50.783+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.321 seconds
+[2024-06-27T12:07:21.711+0530] {processor.py:161} INFO - Started process (PID=3402) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T12:07:21.714+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T12:07:21.721+0530] {logging_mixin.py:188} INFO - [2024-06-27T12:07:21.721+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T12:07:21.744+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T12:07:21.945+0530] {logging_mixin.py:188} INFO - [2024-06-27T12:07:21.944+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T12:07:22.023+0530] {logging_mixin.py:188} INFO - [2024-06-27T12:07:22.021+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T12:07:22.102+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.418 seconds
+[2024-06-27T13:04:15.631+0530] {processor.py:161} INFO - Started process (PID=1602) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:04:15.634+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:04:15.639+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:04:15.639+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:04:15.668+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:04:15.804+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:04:15.803+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:04:15.875+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:04:15.875+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:04:15.926+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.314 seconds
+[2024-06-27T13:04:46.105+0530] {processor.py:161} INFO - Started process (PID=2246) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:04:46.107+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:04:46.109+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:04:46.109+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:04:46.129+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:04:46.368+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:04:46.368+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:04:46.418+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:04:46.417+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:04:46.482+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.392 seconds
+[2024-06-27T13:05:17.260+0530] {processor.py:161} INFO - Started process (PID=2593) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:05:17.262+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:05:17.264+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:05:17.263+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:05:17.272+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:05:17.302+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:05:17.302+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:05:17.329+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:05:17.329+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:05:17.366+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.112 seconds
+[2024-06-27T13:05:47.539+0530] {processor.py:161} INFO - Started process (PID=3576) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:05:47.540+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:05:47.542+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:05:47.541+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:05:47.551+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:05:47.650+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:05:47.650+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:05:47.676+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:05:47.676+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:05:47.717+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.187 seconds
+[2024-06-27T13:06:26.107+0530] {processor.py:161} INFO - Started process (PID=4537) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:06:26.112+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:06:26.117+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:06:26.116+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:06:26.153+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:06:26.246+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:06:26.245+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:06:26.388+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:06:26.388+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:06:26.461+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.389 seconds
+[2024-06-27T13:06:56.532+0530] {processor.py:161} INFO - Started process (PID=5659) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:06:56.532+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:06:56.535+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:06:56.534+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:06:56.546+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:06:56.671+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:06:56.671+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:06:56.692+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:06:56.692+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:06:56.722+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.199 seconds
+[2024-06-27T13:07:26.898+0530] {processor.py:161} INFO - Started process (PID=6168) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:07:26.902+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:07:26.907+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:07:26.906+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:07:26.924+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:07:26.979+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:07:26.979+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:07:27.017+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:07:27.017+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:07:27.058+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.173 seconds
+[2024-06-27T13:08:08.048+0530] {processor.py:161} INFO - Started process (PID=7197) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:08:08.050+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:08:08.056+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:08:08.055+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:08:08.090+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:08:08.156+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:08:08.155+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:08:08.231+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:08:08.230+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:08:08.276+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.243 seconds
+[2024-06-27T13:08:38.483+0530] {processor.py:161} INFO - Started process (PID=7718) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:08:38.486+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:08:38.490+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:08:38.489+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:08:38.510+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:08:38.690+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:08:38.690+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:08:38.722+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:08:38.721+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:08:38.762+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.303 seconds
+[2024-06-27T13:09:09.646+0530] {processor.py:161} INFO - Started process (PID=8092) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:09.648+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:09:09.651+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:09.650+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:09.664+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:09.714+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:09.713+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:09:09.765+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:09.765+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:09:09.809+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.172 seconds
+[2024-06-27T13:09:12.378+0530] {processor.py:161} INFO - Started process (PID=8276) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:12.382+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:09:12.385+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:12.384+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:12.406+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:12.535+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:12.534+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:09:12.604+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:12.603+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:09:12.657+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.295 seconds
+[2024-06-27T13:09:39.866+0530] {processor.py:161} INFO - Started process (PID=8818) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:39.868+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:09:39.871+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:39.870+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:39.886+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:39.941+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:39.940+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:09:39.976+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:39.976+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:09:40.028+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.174 seconds
+[2024-06-27T13:09:42.822+0530] {processor.py:161} INFO - Started process (PID=8893) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:42.823+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:09:42.825+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:42.824+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:42.835+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:09:42.871+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:42.870+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:09:42.900+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:09:42.900+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:09:42.934+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.121 seconds
+[2024-06-27T13:10:10.219+0530] {processor.py:161} INFO - Started process (PID=9308) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:10.221+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:10:10.225+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:10.224+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:10.259+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:10.302+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:10.300+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:10:10.361+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:10.360+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:10:10.450+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.257 seconds
+[2024-06-27T13:10:13.727+0530] {processor.py:161} INFO - Started process (PID=9489) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:13.733+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:10:13.738+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:13.738+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:13.768+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:13.895+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:13.889+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:10:13.996+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:13.995+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:10:14.099+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.398 seconds
+[2024-06-27T13:10:40.673+0530] {processor.py:161} INFO - Started process (PID=10425) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:40.676+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:10:40.679+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:40.679+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:40.703+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:40.916+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:40.916+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:10:41.142+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:41.141+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:10:41.182+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.526 seconds
+[2024-06-27T13:10:45.004+0530] {processor.py:161} INFO - Started process (PID=10610) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:45.005+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:10:45.008+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:45.007+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:45.025+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:10:45.056+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:45.055+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:10:45.115+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:10:45.113+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:10:45.195+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.230 seconds
+[2024-06-27T13:11:11.406+0530] {processor.py:161} INFO - Started process (PID=11244) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:11.408+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:11:11.410+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:11.409+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:11.421+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:11.460+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:11.460+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:11:11.486+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:11.486+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:11:11.522+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.131 seconds
+[2024-06-27T13:11:15.407+0530] {processor.py:161} INFO - Started process (PID=11326) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:15.411+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:11:15.413+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:15.413+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:15.426+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:15.467+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:15.467+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:11:15.506+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:15.506+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:11:15.565+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.170 seconds
+[2024-06-27T13:11:41.714+0530] {processor.py:161} INFO - Started process (PID=12378) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:41.715+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:11:41.718+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:41.717+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:41.735+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:41.784+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:41.783+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:11:41.821+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:41.820+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:11:41.867+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.165 seconds
+[2024-06-27T13:11:45.766+0530] {processor.py:161} INFO - Started process (PID=12555) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:45.767+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:11:45.768+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:45.768+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:45.777+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:11:45.809+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:45.809+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:11:45.832+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:11:45.831+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:11:45.864+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.106 seconds
+[2024-06-27T13:12:12.036+0530] {processor.py:161} INFO - Started process (PID=13287) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:12:12.039+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:12:12.042+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:12:12.042+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:12:12.054+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:12:12.105+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:12:12.104+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:12:12.143+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:12:12.142+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:12:12.192+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.168 seconds
+[2024-06-27T13:12:42.427+0530] {processor.py:161} INFO - Started process (PID=13501) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:12:42.429+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:12:42.433+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:12:42.432+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:12:42.445+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:12:42.487+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:12:42.487+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:12:42.519+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:12:42.519+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:12:42.724+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.308 seconds
+[2024-06-27T13:13:12.912+0530] {processor.py:161} INFO - Started process (PID=13752) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:13:12.914+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:13:12.917+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:13:12.917+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:13:12.929+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:13:12.965+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:13:12.964+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:13:13.116+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:13:13.115+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:13:13.150+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.254 seconds
+[2024-06-27T13:13:43.326+0530] {processor.py:161} INFO - Started process (PID=14095) to work on /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:13:43.328+0530] {processor.py:830} INFO - Processing file /home/anandkalsait/airflow/dags/ETL.py for tasks to queue
+[2024-06-27T13:13:43.330+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:13:43.330+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:13:43.338+0530] {processor.py:840} INFO - DAG(s) 'ETL' retrieved from /home/anandkalsait/airflow/dags/ETL.py
+[2024-06-27T13:13:43.453+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:13:43.452+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-27T13:13:43.471+0530] {logging_mixin.py:188} INFO - [2024-06-27T13:13:43.470+0530] {dag.py:3954} INFO - Setting next_dagrun for ETL to 2024-06-26 00:00:00+00:00, run_after=2024-06-27 00:00:00+00:00
+[2024-06-27T13:13:43.498+0530] {processor.py:183} INFO - Processing /home/anandkalsait/airflow/dags/ETL.py took 0.179 seconds

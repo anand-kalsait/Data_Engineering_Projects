@@ -1,0 +1,17 @@
+[2024-06-13T22:35:36.373+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-13T22:35:36.393+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_dag.transform_load_weather_data manual__2024-06-13T17:05:28.475978+00:00 [queued]>
+[2024-06-13T22:35:36.404+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_dag.transform_load_weather_data manual__2024-06-13T17:05:28.475978+00:00 [queued]>
+[2024-06-13T22:35:36.404+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-06-13T22:35:36.429+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_load_weather_data> on 2024-06-13 17:05:28.475978+00:00
+[2024-06-13T22:35:36.434+0530] {standard_task_runner.py:63} INFO - Started process 50945 to run task
+[2024-06-13T22:35:36.438+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'weather_dag', 'transform_load_weather_data', 'manual__2024-06-13T17:05:28.475978+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmpd9wk7h8d']
+[2024-06-13T22:35:36.440+0530] {standard_task_runner.py:91} INFO - Job 17: Subtask transform_load_weather_data
+[2024-06-13T22:35:36.521+0530] {task_command.py:426} INFO - Running <TaskInstance: weather_dag.transform_load_weather_data manual__2024-06-13T17:05:28.475978+00:00 [running]> on host AlexMercer99.
+[2024-06-13T22:35:36.668+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='alex99mercer26263@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_dag' AIRFLOW_CTX_TASK_ID='transform_load_weather_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-13T17:05:28.475978+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-13T17:05:28.475978+00:00'
+[2024-06-13T22:35:36.670+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-13T22:35:36.765+0530] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-13T22:35:36.765+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-13T22:35:36.785+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=weather_dag, task_id=transform_load_weather_data, run_id=manual__2024-06-13T17:05:28.475978+00:00, execution_date=20240613T170528, start_date=20240613T170536, end_date=20240613T170536
+[2024-06-13T22:35:36.852+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-13T22:35:36.884+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-13T22:35:36.886+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
