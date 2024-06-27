@@ -20,7 +20,7 @@ Refer to the link below:
 
 <h3>Instructions:</h3>
 
-<br>1) Update Package Manager: 
+1) Update Package Manager: 
 <pre class="tab">sudo apt update </pre>
 
 2) Install MySQL on Ubuntu: 
