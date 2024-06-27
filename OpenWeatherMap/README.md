@@ -1,3 +1,9 @@
+ <style>
+    .tab {
+      tab-size: 4;
+    }
+  </style>
+
 # Airflow Projects
 Youtube Playlist for referance:
 <br>Link - https://youtube.com/playlist?list=PLh_t6gayq9phGUKuyLlP5NU7HISwt-yfN&feature=shared
@@ -22,7 +28,7 @@ Refer to the link below:
 <br>Link - https://youtu.be/v8gbHZbttGs?feature=shared
 <br>Instructions:
 <br>1) Update Package Manager: 
-<br>    sudo apt update
+<br> <pre class="tab1">   sudo apt update </pre>
 <br>2) Install MySQL on Ubuntu: 
 <br>    sudo apt install mysql-server
 <br>3) Creating Database for Airflow:
