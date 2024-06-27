@@ -44,7 +44,7 @@ Refer to the link below:
 <pre class="tab">airflow db migrate</pre>
 9) Creating an Airflow User:
 <pre class="tab">airflow users create --username Username --password Password --role Admin --firstname FirsName --lastname LastName --email Email</pre>
-Example:<br>airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com<br
+Example:<br>airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com<br>
 
 <h2>Commands to run already created Airflow Server</h2>
 <h4>- To run the server all at once, but might create errors if pre-existing server is still up</h4>
