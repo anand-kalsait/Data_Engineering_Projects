@@ -3,14 +3,14 @@
 <h2>Steps to Install Airflow using WSL-2</h2>
 
 <h3>Prerequisites</h3>
-<br>You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11 to use the commands below.
+You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11 to use the commands below.
 <br>If you are on earlier versions please see the manual install page.
 
 <br>TIP - Use PowerShell OR Command Prompt in Adminstrator mode to run the WSL commands
 <br>Link to refer WSL Installation - 
 <br>https://youtu.be/wjbbl0TTMeo?feature=shared
 
-<br>Use the following Commands to get started after WSL and Ubuntu Installation <br>
+<br>Use the following Commands to get started after WSL and Ubuntu Installation
 
 <br>sudo apt update && sudo apt upgrade -all
 <br>sudo apt full-upgrade
