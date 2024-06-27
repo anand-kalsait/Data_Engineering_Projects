@@ -15,8 +15,6 @@
 <br>sudo poweroff 
 
 <h2>To Migrate Default SQLite Database to MySQL Database</h2>
-Refer to the link below:
-<br>Link - https://youtu.be/v8gbHZbttGs?feature=shared
 
 <h3>Instructions:</h3>
 
@@ -50,6 +48,9 @@ Refer to the link below:
 9) Creating an Airflow User:
 <pre class="tab">airflow users create --username Username --password Password --role Admin --firstname FirsName --lastname LastName --email Email</pre>
 Example:<br>airflow users create --username admin --password admin --role Admin --firstname admin --lastname admin --email admin@example.com<br>
+
+Refer to the link below:
+<br>Link - https://youtu.be/v8gbHZbttGs?feature=shared
 
 <h2>Commands to run already created Airflow Server</h2>
 
