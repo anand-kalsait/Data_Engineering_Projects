@@ -1,9 +1,4 @@
 <h1>Airflow Project with OpenWeatherMap API</h1> 
-<h2>Youtube Playlist for referance</h2>
-<br>Link for OpenWeatherMap API Project - <br>https://youtu.be/uhQ54Dgp6To?feature=shared
-<br>Thank You @tuplespectra from Youtube for the amazing tips.<br>
-<br>Link for Airflow Installation Playlist- <br>https://youtube.com/playlist?list=PLh_t6gayq9phGUKuyLlP5NU7HISwt-yfN&feature=shared
-<br>Thank You @Data Rollup from Youtube for the amazing tips.
 
 <h2>Steps to Install Airflow using WSL-2</h2>
 
@@ -74,6 +69,13 @@ Example:<br>airflow users create --username admin --password admin --role Admin 
 <h4>- To force stop the server use kill command with the port number given by 'lsof' command below</h4>
 <pre class="tab">lsof -i tcp:8080</pre>
 <pre class="tab">kill port_number </pre>
----------------------------------------------------------------------------------------------------
+
+<h2>Youtube Playlist for referance</h2>
+
+<br>Link for OpenWeatherMap API Project - <br>https://youtu.be/uhQ54Dgp6To?feature=shared
+<br>Thank You @tuplespectra from Youtube for the amazing tips.<br>
+
+<br>Link for Airflow Installation Playlist- <br>https://youtube.com/playlist?list=PLh_t6gayq9phGUKuyLlP5NU7HISwt-yfN&feature=shared
+<br>Thank You @Data Rollup from Youtube for the amazing tips.<br>
 
 
