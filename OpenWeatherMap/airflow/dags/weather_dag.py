@@ -70,7 +70,6 @@ default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
     "start_date": datetime(2024, 6, 12),
-    'email': ['alex99mercer26263@gmail.com'],
     'email_on_failure': False,
     'email_on_retry': False,
     'email_on_success':True,
@@ -88,13 +87,13 @@ with DAG('weather_dag',
     is_weather_api_ready = HttpSensor(
         task_id = 'is_weather_api_ready',
         http_conn_id='weathermap_api',
-        endpoint= '/data/2.5/weather?id=1259229&appid=8edf636a18dd28a56a2469fd9c9e5196'
+        endpoint= '/data/2.5/weather?id=1259229&appid=<API_Token>'
     )
     
     extract_weather_data = SimpleHttpOperator(
         task_id = 'extract_weather_data',
         http_conn_id = 'weathermap_api',
-        endpoint = '/data/2.5/weather?id=1259229&appid=8edf636a18dd28a56a2469fd9c9e5196',
+        endpoint = '/data/2.5/weather?id=1259229&appid=<API_Token>',
         method = 'GET',
         response_filter = lambda r: json.loads(r.text),
         log_response = True 
