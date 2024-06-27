@@ -10,7 +10,10 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 <br>Link to refer WSL Installation - 
 <br>https://youtu.be/wjbbl0TTMeo?feature=shared
 
-<br>Use the following Commands to get started after WSL and Ubuntu Installation
+<h3>To use WSL remotely in VS Code</h3>
+Youtube Link - https://youtube.com/shorts/UfPnQIBo5_I?feature=shared
+
+<h4>Use the following Commands to get started after WSL and Ubuntu Installation</h4>
 <br>sudo apt update && sudo apt upgrade -all
 <br>sudo apt full-upgrade
 <br>sudo apt install python3
