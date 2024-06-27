@@ -2,17 +2,29 @@
 
 <h2>Steps to Install Airflow using WSL-2</h2>
 
+<h3>Prerequisites</h3>
+<br>You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11 to use the commands below.
+<br>If you are on earlier versions please see the manual install page.
+
+<br>TIP - Use PowerShell OR Command Prompt in Adminstrator mode to run the WSL commands
+<br>Link to refer WSL Installation - 
+<br>https://youtu.be/wjbbl0TTMeo?feature=shared
+
+<br>Use the following Commands to get started after WSL and Ubuntu Installation <br>
+
 <br>sudo apt update && sudo apt upgrade -all
 <br>sudo apt full-upgrade
 <br>sudo apt install python3
 <br>sudo apt install python3-pip
 <br>sudo apt install -y python3 python3-pip python3-venv
 <br>python3 -m venv airflow-venv
-<br>pip install apache-airflow
-<br>pip install package_name like s3fs,pandas,numpy,datetime,json,airflow,airflow.providers,csv
 <br>source airflow-venv/bin/activate
-<br>deactivate
-<br>sudo poweroff 
+<br>pip install apache-airflow
+<br>pip install package_names like s3fs,pandas,numpy,datetime,json,airflow,airflow.providers,csv
+<br>deactivate - To deactivate the venv
+<br>sudo poweroff - To shutdown the Ubuntu Distro
+
+
 
 <h2>To Migrate Default SQLite Database to MySQL Database</h2>
 
