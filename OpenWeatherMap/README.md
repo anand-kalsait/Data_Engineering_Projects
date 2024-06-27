@@ -11,7 +11,6 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 <br>https://youtu.be/wjbbl0TTMeo?feature=shared
 
 <br>Use the following Commands to get started after WSL and Ubuntu Installation
-
 <br>sudo apt update && sudo apt upgrade -all
 <br>sudo apt full-upgrade
 <br>sudo apt install python3
