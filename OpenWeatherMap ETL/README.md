@@ -1,4 +1,8 @@
 <h1>Airflow Project with OpenWeatherMap API</h1> 
+## Screenshots
+
+![App Screenshot](https://github.com/anand-kalsait/Data_Engineering_Projects/blob/a2a46ec2d5c032f332ee5085d403993e360720b1/OpenWeatherMap%20ETL/Screenshot%202024-07-10%20190252.png)
+![App Screenshot](https://github.com/anand-kalsait/Data_Engineering_Projects/blob/a2a46ec2d5c032f332ee5085d403993e360720b1/OpenWeatherMap%20ETL/Screenshot%202024-07-10%20190329.png)
 
 <h2>Steps to Install Airflow using WSL-2</h2>
 
@@ -104,4 +108,4 @@ Refer to the link below:
 <br>Link for Airflow Installation Playlist- <br>https://youtube.com/playlist?list=PLh_t6gayq9phGUKuyLlP5NU7HISwt-yfN&feature=shared
 <br>Thank You @Data Rollup from Youtube for the amazing tips.<br>
 
-
+[MIT](https://choosealicense.com/licenses/mit/)
