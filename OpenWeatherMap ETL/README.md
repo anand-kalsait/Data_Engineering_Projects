@@ -108,4 +108,5 @@ Refer to the link below:
 <br>Link for Airflow Installation Playlist- <br>https://youtube.com/playlist?list=PLh_t6gayq9phGUKuyLlP5NU7HISwt-yfN&feature=shared
 <br>Thank You @Data Rollup from Youtube for the amazing tips.<br>
 
+<h2>License</h2>
 [MIT](https://choosealicense.com/licenses/mit/)
