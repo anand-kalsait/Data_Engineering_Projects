@@ -1,5 +1,5 @@
 <h1>Airflow Project with OpenWeatherMap API</h1> 
-## Screenshots
+<h2>Screenshots</h2>
 
 ![App Screenshot](https://github.com/anand-kalsait/Data_Engineering_Projects/blob/a2a46ec2d5c032f332ee5085d403993e360720b1/OpenWeatherMap%20ETL/Screenshot%202024-07-10%20190252.png)
 ![App Screenshot](https://github.com/anand-kalsait/Data_Engineering_Projects/blob/a2a46ec2d5c032f332ee5085d403993e360720b1/OpenWeatherMap%20ETL/Screenshot%202024-07-10%20190329.png)
